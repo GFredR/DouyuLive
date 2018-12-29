@@ -1,6 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:/Users/guofengrui/Desktop/&#x6bd5;&#x4e1a;&#x8bbe;&#x8ba1;/Graduate-DouyuLive/DouyuLive/Graduate-DouyuLive/Graduate-DouyuLive/Assets.xcassets"
+      name = "Assets.xcassets">
+      <Group
+         location = "group:AppIcon.appiconset"
+         name = "AppIcon.appiconset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Contents.json">
+      </FileRef>
+      <Group
+         location = "group:Icon"
+         name = "Icon">
+         <Group
+            location = "group:AppIcon72x72.imageset"
+            name = "AppIcon72x72.imageset">
+            <FileRef
+               location = "group:AppIcon72x72@2x~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon72x72~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppIcon50x50.imageset"
+            name = "AppIcon50x50.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon50x50~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon50x50@2x~ipad.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppIcon60x60.imageset"
+            name = "AppIcon60x60.imageset">
+            <FileRef
+               location = "group:AppIcon60x60@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon60x60@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppIcon20x20.imageset"
+            name = "AppIcon20x20.imageset">
+            <FileRef
+               location = "group:AppIcon20x20@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon20x20@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon20x20~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon20x20@2x~ipad.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppIcon40x40.imageset"
+            name = "AppIcon40x40.imageset">
+            <FileRef
+               location = "group:AppIcon40x40@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon40x40@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon40x40@2x~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon40x40~ipad.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppIcon76x76.imageset"
+            name = "AppIcon76x76.imageset">
+            <FileRef
+               location = "group:AppIcon76x76@2x~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon76x76~ipad.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppIcon83.5x83.5.imageset"
+            name = "AppIcon83.5x83.5.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon83.5x83.5@2x~ipad.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AppIcon57x57.imageset"
+            name = "AppIcon57x57.imageset">
+            <FileRef
+               location = "group:AppIcon57x57.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon57x57@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <Group
+            location = "group:AppIcon29x29.imageset"
+            name = "AppIcon29x29.imageset">
+            <FileRef
+               location = "group:AppIcon29x29.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon29x29@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon29x29~ipad.png">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon29x29@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:AppIcon29x29@2x~ipad.png">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:LaunchImage.launchimage"
+         name = "LaunchImage.launchimage">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "self:Graduate-DouyuLive.xcodeproj">
    </FileRef>

@@ -10,8 +10,8 @@
 		780D1A2C21D72A0D003F2F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D1A2B21D72A0D003F2F0A /* AppDelegate.swift */; };
 		780D1A2E21D72A0D003F2F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D1A2D21D72A0D003F2F0A /* ViewController.swift */; };
 		780D1A3121D72A0D003F2F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780D1A2F21D72A0D003F2F0A /* Main.storyboard */; };
-		780D1A3321D72A0F003F2F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780D1A3221D72A0F003F2F0A /* Assets.xcassets */; };
 		780D1A3621D72A0F003F2F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780D1A3421D72A0F003F2F0A /* LaunchScreen.storyboard */; };
+		780D1A7221D733E5003F2F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780D1A7121D733E5003F2F0A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		780D1A2B21D72A0D003F2F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		780D1A2D21D72A0D003F2F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		780D1A3021D72A0D003F2F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		780D1A3221D72A0F003F2F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		780D1A3521D72A0F003F2F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		780D1A3721D72A0F003F2F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780D1A7121D733E5003F2F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 				780D1A2B21D72A0D003F2F0A /* AppDelegate.swift */,
 				780D1A2D21D72A0D003F2F0A /* ViewController.swift */,
 				780D1A2F21D72A0D003F2F0A /* Main.storyboard */,
-				780D1A3221D72A0F003F2F0A /* Assets.xcassets */,
+				780D1A7121D733E5003F2F0A /* Assets.xcassets */,
 				780D1A3421D72A0F003F2F0A /* LaunchScreen.storyboard */,
 				780D1A3721D72A0F003F2F0A /* Info.plist */,
 			);
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				780D1A3621D72A0F003F2F0A /* LaunchScreen.storyboard in Resources */,
-				780D1A3321D72A0F003F2F0A /* Assets.xcassets in Resources */,
+				780D1A7221D733E5003F2F0A /* Assets.xcassets in Resources */,
 				780D1A3121D72A0D003F2F0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83A3UH43TP;
 				INFOPLIST_FILE = "Graduate-DouyuLive/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gfr.live.Graduate-DouyuLive";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83A3UH43TP;
 				INFOPLIST_FILE = "Graduate-DouyuLive/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gfr.live.Graduate-DouyuLive";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
