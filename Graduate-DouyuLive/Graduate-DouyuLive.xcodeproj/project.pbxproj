@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		780D1A2C21D72A0D003F2F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D1A2B21D72A0D003F2F0A /* AppDelegate.swift */; };
-		780D1A2E21D72A0D003F2F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780D1A2D21D72A0D003F2F0A /* ViewController.swift */; };
 		780D1A3121D72A0D003F2F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780D1A2F21D72A0D003F2F0A /* Main.storyboard */; };
 		780D1A3621D72A0F003F2F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780D1A3421D72A0F003F2F0A /* LaunchScreen.storyboard */; };
 		780D1A7221D733E5003F2F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780D1A7121D733E5003F2F0A /* Assets.xcassets */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		780D1A2821D72A0D003F2F0A /* Graduate-DouyuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graduate-DouyuLive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		780D1A2B21D72A0D003F2F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		780D1A2D21D72A0D003F2F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		780D1A3021D72A0D003F2F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		780D1A3521D72A0F003F2F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		780D1A3721D72A0F003F2F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,14 +52,61 @@
 		780D1A2A21D72A0D003F2F0A /* Graduate-DouyuLive */ = {
 			isa = PBXGroup;
 			children = (
+				780D1A7321D73838003F2F0A /* Classes */,
 				780D1A2B21D72A0D003F2F0A /* AppDelegate.swift */,
-				780D1A2D21D72A0D003F2F0A /* ViewController.swift */,
 				780D1A2F21D72A0D003F2F0A /* Main.storyboard */,
 				780D1A7121D733E5003F2F0A /* Assets.xcassets */,
 				780D1A3421D72A0F003F2F0A /* LaunchScreen.storyboard */,
 				780D1A3721D72A0F003F2F0A /* Info.plist */,
 			);
 			path = "Graduate-DouyuLive";
+			sourceTree = "<group>";
+		};
+		780D1A7321D73838003F2F0A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				780D1A7821D73838003F2F0A /* Main */,
+				780D1A7521D73838003F2F0A /* Tools */,
+				780D1A7421D73838003F2F0A /* Home */,
+				780D1A7621D73838003F2F0A /* Follow */,
+				780D1A7721D73838003F2F0A /* ProFile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		780D1A7421D73838003F2F0A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		780D1A7521D73838003F2F0A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		780D1A7621D73838003F2F0A /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		780D1A7721D73838003F2F0A /* ProFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProFile;
+			sourceTree = "<group>";
+		};
+		780D1A7821D73838003F2F0A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +180,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780D1A2E21D72A0D003F2F0A /* ViewController.swift in Sources */,
 				780D1A2C21D72A0D003F2F0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
